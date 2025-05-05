@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import Logout from "./logout"
+import Stadistic from "./Stadistic"
+
 
 
 
@@ -131,8 +133,11 @@ function GetStudents() {
             placeholder="Buscar por ID o nombre"
             className="p-2 border border-slate-300 rounded-md w-full"
           />
+          
         </div>
-
+        <div className="mb-6">
+        <Stadistic />
+        </div>
         <div className="mb-6 text-right">
           <button
             onClick={() => navigate("/add-student")}
