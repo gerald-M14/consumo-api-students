@@ -1,6 +1,3 @@
-Claro, aquí tienes un resumen puntual del `README` solo con lo esencial:
-
----
 
 ## 📘 Frontend - Student Dashboard
 
